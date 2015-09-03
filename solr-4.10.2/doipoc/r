@@ -1,0 +1,91 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+36   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /SOLR/solr-4.10.2/doipoc/contexts at interval 0
+48   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /SOLR/solr-4.10.2/doipoc/contexts/solr-jetty-context.xml
+1395 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1467 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+1489 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+1490 [main] INFO  org.apache.solr.core.SolrResourceLoader  – solr home defaulted to 'solr/' (could not find system property or JNDI)
+1492 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: 'solr/'
+1676 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /SOLR/solr-4.10.2/doipoc/solr/solr.xml
+1833 [main] INFO  org.apache.solr.core.CoresLocator  – Config-defined core root directory: /SOLR/solr-4.10.2/doipoc/solr
+1844 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 173214986
+1844 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=solr/]
+1864 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+1865 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+1870 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+1871 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1873 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1874 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1874 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1875 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1875 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+2035 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+2038 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2039 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2040 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+2098 [main] INFO  org.apache.solr.core.CoresLocator  – Looking for core definitions underneath /SOLR/solr-4.10.2/doipoc/solr
+2109 [main] INFO  org.apache.solr.core.CoresLocator  – Found core colecao1 in /SOLR/solr-4.10.2/doipoc/solr/colecao1/
+2109 [main] INFO  org.apache.solr.core.CoresLocator  – Found 1 core definitions
+2112 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/SOLR/solr-4.10.2/doipoc/solr/colecao1/'
+2113 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/doipoc/solr/colecao1/lib/fontbox-1.8.4.jar' to classloader
+2113 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/doipoc/solr/colecao1/lib/pdfbox-1.8.4.jar' to classloader
+2113 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/doipoc/solr/colecao1/lib/solr-cell-4.10.2.jar' to classloader
+2114 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/doipoc/solr/colecao1/lib/tika-core-1.5.jar' to classloader
+2114 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/doipoc/solr/colecao1/lib/tika-parsers-1.5.jar' to classloader
+2114 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/doipoc/solr/colecao1/lib/xercesImpl-2.9.1.jar' to classloader
+2221 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+2224 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2224 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2225 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+2225 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2226 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2226 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2226 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+2227 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+2227 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+2227 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+2228 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+2228 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2228 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+2229 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+2229 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2230 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2230 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+2230 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+2231 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+2231 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+2231 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+2232 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/rome-0.9.jar' to classloader
+2232 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2232 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+2232 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+2233 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+2233 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+2233 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+2233 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2234 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2234 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2234 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/extraction/lib/xz-1.4.jar' to classloader
+2236 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/dist/solr-cell-4.10.2.jar' to classloader
+2237 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2237 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2237 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2238 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2238 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2238 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2238 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2239 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2239 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/dist/solr-clustering-4.10.2.jar' to classloader
+2240 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2241 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2241 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/dist/solr-langid-4.10.2.jar' to classloader
+2243 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2243 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2243 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2244 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2244 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/SOLR/solr-4.10.2/dist/solr-velocity-4.10.2.jar' to classloader
+2410 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.SolrIndexConfig  – IndexWriter infoStream solr logging is enabled
+2421 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.10.2
+2689 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+2701 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /SOLR/solr-4.10.2/doipoc/solr/colecao1/conf/schema.xml
+2787 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [colecao1] Schema name=example
